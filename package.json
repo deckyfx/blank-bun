@@ -1,14 +1,17 @@
 {
   "name": "blank-bun",
   "module": "src/index.ts",
-  "type": "module",
-  "scripts": {
-    "start": "bun run src/index.ts"
-  },
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
-  }
+  },
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "start2": "bun run src/socket-server.ts",
+    "start3": "bun run src/example3.ts"
+  },
+  "type": "module",
+  "dependencies": {}
 }
